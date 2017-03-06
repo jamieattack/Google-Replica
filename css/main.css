@@ -193,3 +193,40 @@ a.button:hover {
     font-size: 14px;
 }
 
+
+/*======================================================================================================*/
+/*											media quieres*/
+/*======================================================================================================*/
+
+@media(max-width: 670px){
+	.search-box input{
+		width:80%;
+	}
+}
+
+@media(max-width: 522px){
+	ul.left-site-links, .right-site-links{
+		float:none;
+		text-align: center
+	}
+
+@media(max-width: 416px){
+	.top-navigation li{
+		padding:0px;
+	}
+}
+
+@media(max-width: 347px){
+	.top-navigation li{
+		font-size:10px;
+	}
+}
+
+@media(max-width: 319px){
+	.bottom-site-links{
+		display:none;
+	}
+	.top-navigation{
+		display:none;
+	}
+}
